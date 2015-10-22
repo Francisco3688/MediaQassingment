@@ -1,0 +1,105 @@
+*{
+	border:solid 0px #000;
+}
+
+body {
+	background: #fafafa;
+}
+
+#wrap {
+
+}
+
+#banner {
+	height: 50px;
+	background:red;
+	padding-top:30px;
+	text-align: center;
+}
+
+.bannerText {
+	text-align:center;
+	font-family: sans-serif;
+	font-size:60pt;
+}
+
+nav {}
+
+nav ul {
+	margin: 0px;
+	list-style: none;
+	padding-left:0px;
+}
+
+nav ul li {
+	border: solid 1px #000;
+	height: 25px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-size: 16pt;
+	font-family: sans-serif;
+}
+
+nav ul li:hover{
+	background:black;
+	color:white;
+	cursor:pointer;
+}
+
+#mainContent {
+
+}
+
+#mainArea {
+	height:300px;
+	width:100%;
+	background:green;
+
+}
+
+#sideBar {
+	display: none;
+}
+
+#footer {
+	position:fixed;
+	height: 30px;
+	bottom:0px;
+	background:#fafafa;
+	width:100%;
+	text-align: center;
+	font-size:8pt;
+	font-family:verdana;
+}
+
+@media (min-width: 768px){
+	body{
+		background: orange;
+	}
+
+	nav ul li {
+	border: solid 1px #000;
+	height: 25px;
+	text-align: center;
+	width:24%;
+	float:left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-size: 16pt;
+	font-family: sans-serif;
+}
+}
+
+@media (min-width: 992px){
+	body {
+		background:yellow;}
+}
+
+@media (min-width: 1200px){
+	body {
+		background:red;
+	}
+}
